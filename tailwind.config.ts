@@ -17,6 +17,12 @@ module.exports = {
         quaternary: '#0f4571',
         quinary: '#3a3132',
       },
+      textDecoration: {
+        'outline': '0.2em solid currentColor',
+      },
+      fontFamily: {
+        outfit: ["Outfit", 'sans-serif'],
+      },
     },
   },
   plugins: [],

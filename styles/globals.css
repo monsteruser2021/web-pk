@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+
+@layer components{
+    .nav-menu{
+        @apply relative cursor-pointer inline-block px-4 font-bold uppercase text-[17px] hover:text-tertiary hover:scale-110 duration-200 w-fit md:block after:block after:content-[''] after:absolute after:h-[3px] after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-200 after:origin-center
+    }
+}
