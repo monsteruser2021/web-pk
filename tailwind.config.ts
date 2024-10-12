@@ -8,6 +8,9 @@ module.exports = {
     // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+
+  darkMode: 'class',
+
   theme: {
     extend: {
       colors:{
@@ -16,9 +19,6 @@ module.exports = {
         tertiary: '#386dbd',
         quaternary: '#0f4571',
         quinary: '#3a3132',
-      },
-      textDecoration: {
-        'outline': '0.2em solid currentColor',
       },
       fontFamily: {
         outfit: ["Outfit", 'sans-serif'],
