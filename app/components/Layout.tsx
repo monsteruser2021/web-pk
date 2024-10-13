@@ -1,7 +1,7 @@
 import { useState } from "react";
 import MobileNav from "./Navbar/MobileNav";
 import Navbar from "./Navbar/Navbar";
-import Footer from "./Footer/Footer";
+import Footer from "./footer/Footer";
 
 export default function Layout({ children }: any) {
   const [nav, setNav] = useState(false);
@@ -12,6 +12,6 @@ export default function Layout({ children }: any) {
     <Navbar openNav={openNav} />
     <MobileNav nav={nav} closeNav={closeNav} />
     {children}
-    <Footer />
+    <Footer/>
   </>
 }

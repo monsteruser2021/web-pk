@@ -18,7 +18,7 @@ module.exports = {
         secondary: '#009ddd',
         tertiary: '#386dbd',
         quaternary: '#0f4571',
-        quinary: '#3a3132',
+        quinary: '#232323',
       },
       fontFamily: {
         outfit: ["Outfit", 'sans-serif'],

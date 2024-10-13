@@ -38,7 +38,7 @@ interface Props {
 
 const Navbar = ({ openNav }: Props) => {
   return (
-    <div className='w-[100%] h-[8vh] fixed z-[10000] top-0 bg-primary dark:bg-quaternary font-outfit text-neutral-900 dark:text-gray-100 shadow-lg'>
+    <div className='w-[100%] h-[8vh] fixed z-[10000] top-0 bg-primary dark:bg-quaternary font-outfit text-neutral-900 dark:text-gray-100 shadow-lg shadow-gray-400 dark:shadow-slate-950 '>
       <div className='flex items-center justify-between w-[80%] h-[100%] mx-auto '>
         {/*Logo*/}
         <div className='cursor-pointer'>
@@ -65,7 +65,7 @@ const Navbar = ({ openNav }: Props) => {
         <div className='flex items-center'>
             <ThemeToggle/>
           <div onClick={openNav}>
-            <FaBarsStaggered className='ml-[2rem] w-[2rem] h-[2rem] md:hidden cursor-pointer dark:text-gray-100'/>
+            <FaBarsStaggered className='ml-[2rem] w-[2rem] h-[2rem] lg:hidden cursor-pointer dark:text-gray-100'/>
           </div>
         </div>
       </div>
